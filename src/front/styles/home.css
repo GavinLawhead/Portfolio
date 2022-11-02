@@ -1,0 +1,111 @@
+/*
+    home.css: This website contains selectors only used in home.css
+
+    All pages share the styles on index.css but you should create 
+    one more css for each page that will contain the selected used 
+    on that page only (the ones not reused in other pages).
+*/
+nav {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+.title {
+  display: inline;
+  padding-left: 50%;
+}
+.title2 {
+  display: flex;
+}
+.carousel-inner {
+  height: 450px;
+}
+
+img {
+  height: 450px;
+}
+
+.imgOne {
+  height: 100%;
+  width: 100%;
+}
+
+.coolestcard {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+.gallery {
+  margin: 10px;
+}
+
+.text {
+  font-family: "Nunito", sans-serif;
+  color: "green";
+}
+
+html {
+  background-color: rgb(54, 52, 50);
+}
+.servicecards {
+  background-color: rgb(54, 52, 50);
+}
+
+.container {
+  padding: 15px;
+}
+.topcard {
+  padding-top: 20px;
+}
+.imagecard {
+  border-radius: 10%;
+}
+.lastcard {
+  padding-bottom: 20px;
+}
+.navbar {
+  background-color: rgb(54, 52, 50);
+}
+.commercial {
+  position: absolute;
+  top: 45%;
+  left: 57%;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
+}
+.carouseltext {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
+  /* -webkit-text-stroke: 3px rgb(0, 0, 0); */
+}
+
+.contactform {
+  background-color: rgb(54, 52, 50);
+}
+.gallery {
+  background-color: rgb(54, 52, 50);
+}
+.servicepages {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.servicepagesimg {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.asphaltmaintanence {
+  padding-top: 40px;
+}
